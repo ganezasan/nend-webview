@@ -1,0 +1,42 @@
+"Window" :{
+  orientationModes: [Ti.UI.PORTRAIT],
+  exitOnClose: true,
+},
+'ImageView[platform=android]': {
+	enableZoomControls: false, // ズームコントロールは隠す
+}
+ "WebView" : {
+	enableZoomControls: false, // ズームコントロールは隠す
+	borderRadius:1
+}
+".container": {
+	backgroundColor:"white",
+},
+"#webview":{
+	top:"55dp",
+},
+"#title":{
+	top:"13dp",
+	width:"129dp",
+	height:"40dp",
+}
+"#nav":{
+    height:"55dp",
+	top:"0dp",
+	backgroundColor:'#d3360b',
+	color:"white"
+}
+"#main":{
+	top:0,
+	left:0,
+	bottom:0,
+	right:0
+},
+"#backButton":{
+	top:"12dp",
+	left:"5dp",
+	width:"45dp",
+	height:"45dp",
+	color:"white",
+	backgroundImage:"/arrow@x2.png"
+}
